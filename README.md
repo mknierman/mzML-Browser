@@ -2,6 +2,8 @@
 
 An interactive Python application for visualizing mzML (mass spectrometry data) files with real-time exploration capabilities.
 
+
+
 ## Features
 
 - **Total Ion Chromatogram (TIC)**: Upper plot showing the total ion count over time
@@ -33,7 +35,6 @@ An interactive Python application for visualizing mzML (mass spectrometry data) 
 
 2. **Open an mzML File**:
    - Use the "File" → "Open mzML file" menu option
-   - Or use the file dialog that appears when you start the application
 
 3. **Navigate the Data**:
    - **TIC Plot (Upper)**: Shows the total ion chromatogram over time
@@ -43,10 +44,11 @@ An interactive Python application for visualizing mzML (mass spectrometry data) 
    - **Pan**: Use the pan tool to navigate around zoomed areas
 
 4. **Features**:
-   - Red dot on TIC plot indicates the currently selected spectrum
+   - Red line on TIC plot indicates the currently selected spectrum
    - Top 10 peaks in mass spectra are automatically labeled with m/z values
    - Status bar shows current retention time and file information
    - Both plots support independent zooming and navigation
+   - You can use the arrow keys to step one scan at a time to the left or right
 
 ## File Format Support
 
@@ -82,4 +84,5 @@ This application supports standard mzML files containing:
 This project is open source and available under the MIT License.
 
 ## Notes
+
 Written with the help of cursor.ai
