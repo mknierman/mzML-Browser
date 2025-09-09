@@ -32,9 +32,11 @@ An interactive Python application for visualizing mzML (mass spectrometry data) 
    ```bash
    python mzml_browser.py
    ```
+   ![mainscreen](https://github.com/mknierman/mzML-Browser/blob/main/images/main_screen_no_file_loaded.png)
 
 2. **Open an mzML File**:
    - Use the "File" → "Open mzML file" menu option
+![mainscreen](https://github.com/mknierman/mzML-Browser/blob/main/images/main_screen_file_loaded.png)
 
 3. **Navigate the Data**:
    - **TIC Plot (Upper)**: Shows the total ion chromatogram over time
