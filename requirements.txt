@@ -1,0 +1,6 @@
+# mzML Interactive Browser — Python dependencies
+# tkinter is part of the Python standard library (no pip install needed)
+
+pymzml>=2.5.0
+matplotlib>=3.7.0
+numpy>=1.24.0
