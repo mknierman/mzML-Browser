@@ -37,9 +37,9 @@ python mzml_browser.py
 
 Then use **File → Open mzML file** to load data.
 
-![Main screen with no file loaded](images/main_screen_no_file_loaded.png)
+![Main screen with no file loaded](images/v1.1.0_main_screen_no_file_loaded.png)
 
-![Main screen with file loaded](images/main_screen_file_loaded.png)
+![Main screen with file loaded](images/v1.1.0_main_screen_file_loaded_XIC.png)
 
 ## Features
 
