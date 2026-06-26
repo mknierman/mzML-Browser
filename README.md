@@ -2,6 +2,8 @@
 
 An interactive Python application for visualizing mzML (mass spectrometry) files. Explore total and extracted ion chromatograms, inspect mass spectra at any retention time, and label peaks in the visible m/z range as you zoom.
 
+**Repository:** [github.com/mknierman/mzML-Browser](https://github.com/mknierman/mzML-Browser)
+
 ## Requirements
 
 - **Python** 3.8 or newer (tested with Python 3.13)
@@ -24,7 +26,7 @@ pip install -r requirements.txt
 Verify the installation:
 
 ```bash
-python test_installation.py
+python tools/test_installation.py
 ```
 
 ## Quick start
@@ -34,6 +36,10 @@ python mzml_browser.py
 ```
 
 Then use **File → Open mzML file** to load data.
+
+![Main screen with no file loaded](images/main_screen_no_file_loaded.png)
+
+![Main screen with file loaded](images/main_screen_file_loaded.png)
 
 ## Features
 
@@ -97,7 +103,7 @@ Then use **File → Open mzML file** to load data.
 | **Slow loading** | Large files are fully loaded into memory; wait for the progress dialog to finish. |
 | **High memory use** | Very large mzML files may require substantial RAM. |
 | **No MS1 data** | Ensure the file contains MS1 spectra in valid mzML format. |
-| **Import errors** | Run `python test_installation.py` and reinstall with `pip install -r requirements.txt`. |
+| **Import errors** | Run `python tools/test_installation.py` and reinstall with `pip install -r requirements.txt`. |
 
 ## Technical details
 
@@ -113,8 +119,9 @@ Then use **File → Open mzML file** to load data.
 |------|-------------|
 | `mzml_browser.py` | Main application |
 | `requirements.txt` | Python package dependencies |
-| `test_installation.py` | Check that dependencies and GUI backend work |
-| `debug_pymzml.py` | Optional pymzml API debugging helper |
+| `tools/test_installation.py` | Check that dependencies and GUI backend work |
+| `tools/debug_pymzml.py` | Optional pymzml API debugging helper |
+| `images/` | Screenshots for documentation |
 
 ## Example workflow
 
@@ -127,4 +134,8 @@ Then use **File → Open mzML file** to load data.
 
 ## License
 
-This project is open source and available under the MIT License.
+This project is open source and available under the [MIT License](LICENSE).
+
+## Notes
+
+Developed with assistance from [Cursor](https://cursor.com).
